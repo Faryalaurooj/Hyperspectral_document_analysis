@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Load the hyperspectral image using the .hdr file
 img = spectral.open_image('input/w01_p02_corrected.hdr')
 
-# Select the bands wanted to be rescale
+# Select the bands wanted to be rescaled
 bands = [0, 29, 59, img.shape[2]-1]
 
 # Loop through the selected bands and rescale the values
